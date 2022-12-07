@@ -1,5 +1,15 @@
 #include <iostream>
+#include "lib.h"
 
-int main(){
-  return 0;
+using namespace std;
+int main () {
+    char l='a';
+    cin >> l;
+    if ( verifica (l)) {
+        cout << l;
+    } else  {
+     cout << "errore" << endl;
+     }
+    return 0;
 }
+
